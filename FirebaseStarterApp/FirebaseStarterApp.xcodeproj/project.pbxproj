@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		1773BFCA221FA51C005C82D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFC9221FA51C005C82D8 /* AppDelegate.swift */; };
-		1773BFCC221FA51C005C82D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFCB221FA51C005C82D8 /* ViewController.swift */; };
-		1773BFCF221FA51C005C82D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFCD221FA51C005C82D8 /* Main.storyboard */; };
 		1773BFD1221FA51F005C82D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFD0221FA51F005C82D8 /* Assets.xcassets */; };
 		1773BFD4221FA51F005C82D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFD2221FA51F005C82D8 /* LaunchScreen.storyboard */; };
+		1773BFE2221FA7D1005C82D8 /* ATCClassicSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFDC221FA7D0005C82D8 /* ATCClassicSignUpViewController.xib */; };
+		1773BFE3221FA7D1005C82D8 /* ATCClassicSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFDD221FA7D0005C82D8 /* ATCClassicSignUpViewController.swift */; };
+		1773BFE4221FA7D1005C82D8 /* ATCClassicLandingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFDE221FA7D0005C82D8 /* ATCClassicLandingScreenViewController.xib */; };
+		1773BFE5221FA7D1005C82D8 /* ATCClassicLandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFDF221FA7D0005C82D8 /* ATCClassicLandingScreenViewController.swift */; };
+		1773BFE6221FA7D1005C82D8 /* ATCClassicLoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFE0221FA7D0005C82D8 /* ATCClassicLoginScreenViewController.swift */; };
+		1773BFE7221FA7D1005C82D8 /* ATCClassicLoginScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFE1221FA7D0005C82D8 /* ATCClassicLoginScreenViewController.xib */; };
+		1773BFEA221FA854005C82D8 /* ATCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFE9221FA854005C82D8 /* ATCTextField.swift */; };
+		1773BFEC221FA894005C82D8 /* UIViewController+ATCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFEB221FA894005C82D8 /* UIViewController+ATCAdditions.swift */; };
+		1773BFEE221FA8CC005C82D8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFED221FA8CC005C82D8 /* UIColor.swift */; };
+		1773BFF0221FABDD005C82D8 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFEF221FABDD005C82D8 /* UIButton.swift */; };
+		1773BFF2221FAE14005C82D8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFF1221FAE14005C82D8 /* UIImage.swift */; };
+		1773BFF4221FB4D8005C82D8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFF3221FB4D8005C82D8 /* UITextField.swift */; };
+		3E398CD0763F03111BF118C5 /* Pods_FirebaseStarterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5651F14D5CB6E681D3D70507 /* Pods_FirebaseStarterApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1773BFC6221FA51C005C82D8 /* FirebaseStarterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseStarterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1773BFC9221FA51C005C82D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1773BFCB221FA51C005C82D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1773BFCE221FA51C005C82D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1773BFD0221FA51F005C82D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1773BFD3221FA51F005C82D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1773BFD5221FA51F005C82D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1773BFDC221FA7D0005C82D8 /* ATCClassicSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicSignUpViewController.xib; sourceTree = "<group>"; };
+		1773BFDD221FA7D0005C82D8 /* ATCClassicSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicSignUpViewController.swift; sourceTree = "<group>"; };
+		1773BFDE221FA7D0005C82D8 /* ATCClassicLandingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicLandingScreenViewController.xib; sourceTree = "<group>"; };
+		1773BFDF221FA7D0005C82D8 /* ATCClassicLandingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicLandingScreenViewController.swift; sourceTree = "<group>"; };
+		1773BFE0221FA7D0005C82D8 /* ATCClassicLoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCClassicLoginScreenViewController.swift; sourceTree = "<group>"; };
+		1773BFE1221FA7D0005C82D8 /* ATCClassicLoginScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCClassicLoginScreenViewController.xib; sourceTree = "<group>"; };
+		1773BFE9221FA854005C82D8 /* ATCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCTextField.swift; sourceTree = "<group>"; };
+		1773BFEB221FA894005C82D8 /* UIViewController+ATCAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ATCAdditions.swift"; sourceTree = "<group>"; };
+		1773BFED221FA8CC005C82D8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1773BFEF221FABDD005C82D8 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		1773BFF1221FAE14005C82D8 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		1773BFF3221FB4D8005C82D8 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		5651F14D5CB6E681D3D70507 /* Pods_FirebaseStarterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseStarterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F562D2664D895A5CDEF3A83 /* Pods-FirebaseStarterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStarterApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseStarterApp/Pods-FirebaseStarterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C65F32946A0E14A8914D92CE /* Pods-FirebaseStarterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseStarterApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseStarterApp/Pods-FirebaseStarterApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E398CD0763F03111BF118C5 /* Pods_FirebaseStarterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				1773BFC8221FA51C005C82D8 /* FirebaseStarterApp */,
 				1773BFC7221FA51C005C82D8 /* Products */,
+				CBC48E8D33775F503B18D956 /* Pods */,
+				749E3BE59A7001F21DFB8A77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,57 @@
 		1773BFC8221FA51C005C82D8 /* FirebaseStarterApp */ = {
 			isa = PBXGroup;
 			children = (
+				1773BFE8221FA83A005C82D8 /* Controls */,
+				1773BFDB221FA7D0005C82D8 /* ViewControllers */,
 				1773BFC9221FA51C005C82D8 /* AppDelegate.swift */,
-				1773BFCB221FA51C005C82D8 /* ViewController.swift */,
-				1773BFCD221FA51C005C82D8 /* Main.storyboard */,
 				1773BFD0221FA51F005C82D8 /* Assets.xcassets */,
 				1773BFD2221FA51F005C82D8 /* LaunchScreen.storyboard */,
 				1773BFD5221FA51F005C82D8 /* Info.plist */,
 			);
 			path = FirebaseStarterApp;
+			sourceTree = "<group>";
+		};
+		1773BFDB221FA7D0005C82D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1773BFDC221FA7D0005C82D8 /* ATCClassicSignUpViewController.xib */,
+				1773BFDD221FA7D0005C82D8 /* ATCClassicSignUpViewController.swift */,
+				1773BFDE221FA7D0005C82D8 /* ATCClassicLandingScreenViewController.xib */,
+				1773BFDF221FA7D0005C82D8 /* ATCClassicLandingScreenViewController.swift */,
+				1773BFE0221FA7D0005C82D8 /* ATCClassicLoginScreenViewController.swift */,
+				1773BFE1221FA7D0005C82D8 /* ATCClassicLoginScreenViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1773BFE8221FA83A005C82D8 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				1773BFE9221FA854005C82D8 /* ATCTextField.swift */,
+				1773BFEB221FA894005C82D8 /* UIViewController+ATCAdditions.swift */,
+				1773BFED221FA8CC005C82D8 /* UIColor.swift */,
+				1773BFEF221FABDD005C82D8 /* UIButton.swift */,
+				1773BFF1221FAE14005C82D8 /* UIImage.swift */,
+				1773BFF3221FB4D8005C82D8 /* UITextField.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		749E3BE59A7001F21DFB8A77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5651F14D5CB6E681D3D70507 /* Pods_FirebaseStarterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBC48E8D33775F503B18D956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F562D2664D895A5CDEF3A83 /* Pods-FirebaseStarterApp.debug.xcconfig */,
+				C65F32946A0E14A8914D92CE /* Pods-FirebaseStarterApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1773BFD8221FA51F005C82D8 /* Build configuration list for PBXNativeTarget "FirebaseStarterApp" */;
 			buildPhases = (
+				FB7C657EDA375F9727EADC55 /* [CP] Check Pods Manifest.lock */,
 				1773BFC2221FA51C005C82D8 /* Sources */,
 				1773BFC3221FA51C005C82D8 /* Frameworks */,
 				1773BFC4221FA51C005C82D8 /* Resources */,
+				B4F2C9CD165462CAE74539A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +195,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				1773BFD4221FA51F005C82D8 /* LaunchScreen.storyboard in Resources */,
+				1773BFE4221FA7D1005C82D8 /* ATCClassicLandingScreenViewController.xib in Resources */,
 				1773BFD1221FA51F005C82D8 /* Assets.xcassets in Resources */,
-				1773BFCF221FA51C005C82D8 /* Main.storyboard in Resources */,
+				1773BFE2221FA7D1005C82D8 /* ATCClassicSignUpViewController.xib in Resources */,
+				1773BFE7221FA7D1005C82D8 /* ATCClassicLoginScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4F2C9CD165462CAE74539A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseStarterApp/Pods-FirebaseStarterApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseStarterApp/Pods-FirebaseStarterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7C657EDA375F9727EADC55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseStarterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1773BFC2221FA51C005C82D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1773BFCC221FA51C005C82D8 /* ViewController.swift in Sources */,
+				1773BFE5221FA7D1005C82D8 /* ATCClassicLandingScreenViewController.swift in Sources */,
+				1773BFF4221FB4D8005C82D8 /* UITextField.swift in Sources */,
+				1773BFEE221FA8CC005C82D8 /* UIColor.swift in Sources */,
+				1773BFEC221FA894005C82D8 /* UIViewController+ATCAdditions.swift in Sources */,
+				1773BFF0221FABDD005C82D8 /* UIButton.swift in Sources */,
+				1773BFE6221FA7D1005C82D8 /* ATCClassicLoginScreenViewController.swift in Sources */,
 				1773BFCA221FA51C005C82D8 /* AppDelegate.swift in Sources */,
+				1773BFF2221FAE14005C82D8 /* UIImage.swift in Sources */,
+				1773BFE3221FA7D1005C82D8 /* ATCClassicSignUpViewController.swift in Sources */,
+				1773BFEA221FA854005C82D8 /* ATCTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1773BFCD221FA51C005C82D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1773BFCE221FA51C005C82D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1773BFD2221FA51F005C82D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +393,7 @@
 		};
 		1773BFD9221FA51F005C82D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F562D2664D895A5CDEF3A83 /* Pods-FirebaseStarterApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +412,7 @@
 		};
 		1773BFDA221FA51F005C82D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65F32946A0E14A8914D92CE /* Pods-FirebaseStarterApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

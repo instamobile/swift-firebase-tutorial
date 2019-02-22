@@ -8,14 +8,12 @@
 
 import UIKit
 
-class UIImage: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+extension UIImage {
+    static func localImage(_ name: String, template: Bool = false) -> UIImage {
+        var image = UIImage(named: name)!
+        if template {
+            image = image.withRenderingMode(.alwaysTemplate)
+        }
+        return image
     }
-    */
-
 }

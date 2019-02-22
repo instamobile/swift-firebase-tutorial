@@ -1,3 +1,4 @@
+
 //
 //  fewfw.swift
 //  FirebaseStarterApp
@@ -8,14 +9,15 @@
 
 import UIKit
 
-class fewfw: UIView {
+extension UIViewController {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
     }
-    */
 
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }
