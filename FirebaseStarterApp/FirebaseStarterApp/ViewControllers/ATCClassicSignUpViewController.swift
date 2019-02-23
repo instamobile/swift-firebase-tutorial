@@ -22,6 +22,7 @@ class ATCClassicSignUpViewController: UIViewController {
     private let tintColor = UIColor(hexString: "#ff5a66")
     private let backgroundColor: UIColor = .white
     private let textFieldColor = UIColor(hexString: "#B0B3C6")
+    
     private let textFieldBorderColor = UIColor(hexString: "#B0B3C6")
 
     private let titleFont = UIFont.boldSystemFont(ofSize: 30)
@@ -99,6 +100,21 @@ class ATCClassicSignUpViewController: UIViewController {
     }
 
     @objc func didTapSignUpButton() {
+        let signUpManager = FirebaseAuthManager()
+        if let email = emailTextField.text, let password = passwordTextField.text {
+            signUpManager.createUser(email: email, password: password) {[weak self] (success) in
+                guard let `self` = self else { return }
+                var message: String = ""
+                if (success) {
+                    message = "User was sucessfully created."
+                } else {
+                    message = "There was an error."
+                }
+                let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                self.display(alertController: alertController)
+            }
+        }
     }
 
     func display(alertController: UIAlertController) {
