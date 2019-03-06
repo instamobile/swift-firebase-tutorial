@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		177371E62221D733003E7EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 177371E52221D733003E7EC4 /* GoogleService-Info.plist */; };
+		177371E92221D7C6003E7EC4 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177371E82221D7C6003E7EC4 /* FirebaseAuthManager.swift */; };
 		1773BFCA221FA51C005C82D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773BFC9221FA51C005C82D8 /* AppDelegate.swift */; };
 		1773BFD1221FA51F005C82D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFD0221FA51F005C82D8 /* Assets.xcassets */; };
 		1773BFD4221FA51F005C82D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773BFD2221FA51F005C82D8 /* LaunchScreen.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		177371E52221D733003E7EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		177371E82221D7C6003E7EC4 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		1773BFC6221FA51C005C82D8 /* FirebaseStarterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseStarterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1773BFC9221FA51C005C82D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1773BFD0221FA51F005C82D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		177371E72221D7A1003E7EC4 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				177371E82221D7C6003E7EC4 /* FirebaseAuthManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		1773BFBD221FA51C005C82D8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,8 @@
 		1773BFC8221FA51C005C82D8 /* FirebaseStarterApp */ = {
 			isa = PBXGroup;
 			children = (
+				177371E72221D7A1003E7EC4 /* Firebase */,
+				177371E52221D733003E7EC4 /* GoogleService-Info.plist */,
 				1773BFE8221FA83A005C82D8 /* Controls */,
 				1773BFDB221FA7D0005C82D8 /* ViewControllers */,
 				1773BFC9221FA51C005C82D8 /* AppDelegate.swift */,
@@ -199,6 +213,7 @@
 				1773BFD1221FA51F005C82D8 /* Assets.xcassets in Resources */,
 				1773BFE2221FA7D1005C82D8 /* ATCClassicSignUpViewController.xib in Resources */,
 				1773BFE7221FA7D1005C82D8 /* ATCClassicLoginScreenViewController.xib in Resources */,
+				177371E62221D733003E7EC4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +228,26 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseStarterApp/Pods-FirebaseStarterApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -255,6 +286,7 @@
 				1773BFF0221FABDD005C82D8 /* UIButton.swift in Sources */,
 				1773BFE6221FA7D1005C82D8 /* ATCClassicLoginScreenViewController.swift in Sources */,
 				1773BFCA221FA51C005C82D8 /* AppDelegate.swift in Sources */,
+				177371E92221D7C6003E7EC4 /* FirebaseAuthManager.swift in Sources */,
 				1773BFF2221FAE14005C82D8 /* UIImage.swift in Sources */,
 				1773BFE3221FA7D1005C82D8 /* ATCClassicSignUpViewController.swift in Sources */,
 				1773BFEA221FA854005C82D8 /* ATCTextField.swift in Sources */,
